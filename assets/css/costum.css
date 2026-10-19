@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Fasthand";
+  src: url("../fonts/Fasthand/Fasthand-Regular.ttf");
+}
+@font-face {
+  font-family: "antonio";
+  src: url("../fonts/Antonio/Antonio-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "sanfi";
+  src: url("../fonts/Google_Sans_Flex/static/GoogleSansFlex_9pt-SemiBold.ttf");
+}
+body {
+  font-family: "Fasthand", "english";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link {
+  font-family: "Angkor Sovann Round_01", "sanfi";
+  color: rgb(6, 6, 6);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link:hover {
+  font-family: "Angkor Sovann Round_01", "sanfi";
+  color: rgb(0, 52, 197);
+  scale: 1.1;
+  transition: 0.5s;
+}
+form {
+  font-family: "bokor", "antonio";
+}
+.categary_card img {
+  height: 100px;
+  object-fit: contain;
+}
+.categary_card {
+  padding: 5px;
+}
+.lorng {
+  color: rgb(172, 78, 0);
+  font-family: "KH ABC FANCY 01";
+  font-size: 25px;
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #6db5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
